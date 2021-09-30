@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{282:function(n,e,t){"use strict";t.r(e);var c={},l=t(58),component=Object(l.a)(c,(function(){var n=this,e=n.$createElement;return(n._self._c||e)("div",[n._v("\n  my products\n")])}),[],!1,null,null,null);e.default=component.exports}}]);

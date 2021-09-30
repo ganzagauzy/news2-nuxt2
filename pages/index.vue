@@ -37,7 +37,7 @@ export default {
   h1 {
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 2rem;
   }
 
 </style>

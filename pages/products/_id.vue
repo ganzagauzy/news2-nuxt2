@@ -3,6 +3,7 @@
 
     <!-- <navigation /> -->
     <div v-if="product" class="container py-5">
+        <nuxt-link to="/products" class="back1"> Back </nuxt-link>
         <div class="hero-container">
             <img :src="require(`@/assets/images/${product.image}`)" alt="" class="image">
             <div class="info-box">
@@ -66,10 +67,11 @@ export default {
   .hero-container {
       display: flex;
       justify-content: space-between;
-      margin-top: 5rem;
+      margin-top: 2rem;
   }
   .image {
-      width: 59%;
+    object-fit: cover;
+      width: 60%;
       height: 25rem;
   }
   .info-box {
@@ -121,6 +123,31 @@ export default {
   .description-container {
       margin-top: 3rem;
       color: grey
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  .back1 {
+    color: rgba(0, 0, 0, 0.774);
+    background:  rgb(116, 201, 149);
+    padding: 5px 15px;
+    border-radius: 30px;
+  }
+
+  @media(max-width:780px) {
+    .hero-container {
+      flex-direction: column;
+
+    }
+    .image {
+      width: 100%;
+      object-fit: cover;
+    }
+    .info-box {
+      width: 100%;
+    }
+
   }
 
 

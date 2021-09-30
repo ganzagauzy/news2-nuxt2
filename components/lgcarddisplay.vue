@@ -50,6 +50,11 @@ export default {
     display: flex;
     justify-content: space-between;
   }
+  @media (max-width:980px) {
+    .cards-container {
+      flex-direction: column;
+    }
+  }
   @media (max-width:480px) {
     .cards-container {
       flex-direction: column;
