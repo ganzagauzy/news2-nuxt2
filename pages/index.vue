@@ -4,7 +4,7 @@
 
 
     <div class="container">
-      <h1>Knews To Know About Us</h1>
+      <h1>News To Know </h1>
       <lgcarddisplay
         v-for="cardinfo in lgcardinfo.slice(0,3)"
         :key="cardinfo.id"
