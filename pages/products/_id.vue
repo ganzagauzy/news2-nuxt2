@@ -77,7 +77,7 @@ export default {
   .info-box {
 
       width: 39%;
-      background-color: rgba(207, 201, 201, 0.322);
+      background-color: rgb(116, 201, 149);
       padding: 1rem;
       border-radius: 0.5rem;
   }
