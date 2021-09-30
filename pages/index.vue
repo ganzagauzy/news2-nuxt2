@@ -1,6 +1,6 @@
 <template>
   <div>
-    <navigation />
+    <!-- <navigation /> -->
 
 
     <div class="container">
@@ -19,10 +19,11 @@
 <script>
 import { lgcardsections } from "@/assets/data.js";
 
-import navigation from "../components/nav.vue";
+// import navigation from "../components/nav.vue";
 
 export default {
-  components: {  navigation },
+  // components: {navigation},
+
 
   data() {
     return {

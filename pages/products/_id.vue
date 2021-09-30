@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <navigation />
+    <!-- <navigation /> -->
     <div v-if="product" class="container py-5">
         <div class="hero-container">
             <img :src="require(`@/assets/images/${product.image}`)" alt="" class="image">
@@ -46,10 +46,10 @@
 
 <script>
 
-import navigation from "@/components/nav.vue";
+// import navigation from "@/components/nav.vue";
 
 export default {
-  components: {  navigation },
+  // components: {  navigation },
 
     computed: {
 
