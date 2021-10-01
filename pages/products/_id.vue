@@ -9,12 +9,15 @@
             <div class="info-box">
                 <h1>{{ product.title }}</h1>
                 <p class="snippet">{{ product.snippet }}</p>
+                 <p>
+                  {{ product.description }}
+                </p>
                 <RentModal
                     :product="product"
                 />
             </div>
         </div>
-        <div class="whats-included-container">
+        <!-- <div class="whats-included-container">
             <div class="included-container">
                 <h6>Super Effective</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorem.</p>
@@ -31,13 +34,13 @@
                 <h6>Satisfaction Guaranteed</h6>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorem.</p>
             </div>
-        </div>
-        <div class="description-container">
+        </div> -->
+        <!-- <div class="description-container">
             <p>
                 {{ product.description }}
             </p>
-        </div>
-        <Reviews />
+        </div> -->
+
     </div>
     <div v-else class="container py-5">
         page not found
@@ -101,7 +104,7 @@ export default {
       font-weight: 400;
   }
   p {
-      color: grey
+      color: rgba(0, 0, 0, 0.774);
   }
   .snippet {
       color: rgba(0, 0, 0, 0.774);
