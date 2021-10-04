@@ -9,9 +9,12 @@
             <div class="info-box">
                 <h1>{{ product.title }}</h1>
                 <p class="snippet">{{ product.snippet }}</p>
+                <h5>
+                  {{ product.location }}
+                </h5>
                  <p>
                   {{ product.description }}
-                </p>
+                </p><br>
                 <RentModal
                     :product="product"
                 />
